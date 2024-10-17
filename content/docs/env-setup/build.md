@@ -30,41 +30,6 @@ make -j$(nproc)
 ```
 {{< /callout >}}
 
-## 编译工程
-
-### pico_dm_qd3503728_noos
-
-裸机工程
-
-目录结构
-
-```shell
-backlight.c   # 背光驱动
-CMakeLists.txt  # 工程cmake配置文件
-factory   # 工厂测试程序
-ft6236.c  # 触摸驱动
-i2c_tools.c # i2c工具
-ili9488.c   # 显示驱动
-include   # 头文件
-LICENSE   # 许可证
-lv_conf.h   # lvgl配置头文件
-lvgl      # lvgl源码
-main.c    # 程序入口
-pico_sdk_import.cmake   # pico-sdk前置文件
-pio       # pio相关驱动
-porting   # lvgl移植文件
-```
-
-编译生成固件
-```bash
-cd pico_dm_qd3503728_noos
-
-mkdir -p build
-cd build
-cmake ..
-make -j12
-```
-
 ### pico_dm_qd3503728_freertos
 
 只针对于本产品的freertos工程

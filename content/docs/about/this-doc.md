@@ -16,11 +16,11 @@ seo:
 
 本文档优先更新至Gitub，通过触发Action完成部署：
 
-[https://embeddedboys.github.io/Pico_DM_QD3503728](https://embeddedboys.github.io/Pico_DM_QD3503728)
+[https://embeddedboys.github.io/Pico_DM_GTM0375HI1T02](https://embeddedboys.github.io/Pico_DM_GTM0375HI1T02)
 
 我们的服务器会每30分钟检查一次文档更新，同步至如下链接，供国内用户访问:
 
-[http://embeddedboys.com/Pico_DM_QD3503728](http://embeddedboys.com/Pico_DM_QD3503728)
+[http://embeddedboys.com/Pico_DM_GTM0375HI1T02](http://embeddedboys.com/Pico_DM_GTM0375HI1T02)
 
 ## 构建本文档
 
@@ -36,8 +36,8 @@ nvm install node
 
 克隆编译构建文档
 ```bash
-git clone https://github.com/embeddedboys/Pico_DM_QD3503728
-cd Pico_DM_QD3503728
+git clone https://github.com/embeddedboys/Pico_DM_GTM0375HI1T02
+cd Pico_DM_GTM0375HI1T02
 
 npm install
 rm -rf public && npm run build

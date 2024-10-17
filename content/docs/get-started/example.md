@@ -20,7 +20,7 @@ seo:
 
 {{< figure src="images/dm-qd3503728-1.jpg" alt="" >}}
 
-**Pico_DM_QD3503728** 是基于树莓派 Pico 设计的一款低成本显示拓展板，用来学习、评估、开发LVGL或其他GUI应用。 
+**Pico_DM_GTM0375HI1T02** 是基于树莓派 Pico 设计的一款低成本显示拓展板，用来学习、评估、开发LVGL或其他GUI应用。 
 
 <mark>**我们使用了PIO模拟8080接口，来达到LCD的极限时序参数。**</mark>
 
@@ -45,14 +45,14 @@ With detailed documentation, a polished MicroPython port, and a UF2 bootloader i
 
 ## 产品参数
 
-| | Pico_DM_QD3503728 |
+| | Pico_DM_GTM0375HI1T02 |
 | --- | --- |
 | 芯片 | 树莓派 RP2040 |
 | 处理器 | 双核 ARM Cortex-M0 + @ 133MHz |
 | 内存 | 264 KB SRAM |
 | 闪存 | 最大 16MB |
-| 显示屏 | 3.5寸 TFT 480x320 16位8080 ILI9488 |
-| 触摸屏 | 3.5寸 FT6236U |
+| 显示屏 | 3.5寸 TFT 480x320 8位8080 ILI9488 |
+| 触摸屏 | 3.5寸 RTP NS009 |
 
 {{< card-grid >}}
   {{< link-card title="官方购买链接" href="https://item.taobao.com/item.htm?ft=t&id=776451474190&spm=a21dvs.23580594.0.0.52de3d0dccvs2X&skuId=5311045681719" >}}

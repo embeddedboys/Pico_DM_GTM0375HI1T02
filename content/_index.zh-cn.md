@@ -1,5 +1,5 @@
 ---
-title : "Pico DM QD3503728"
+title : "Pico DM GTM0375HI1T02"
 description: ""
 lead: "基于树莓派Pico的LVGL开发/评估板"
 date: 2023-09-07T16:33:54+02:00

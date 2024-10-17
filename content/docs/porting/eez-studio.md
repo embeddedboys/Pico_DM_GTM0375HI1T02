@@ -93,7 +93,7 @@ cmake .. -G Ninja
 
 5. 编译工程，并烧录到设备，按住核心板BOOTSEL，并接入USB线连接至电脑
 ```bash
-ninja && cp pico_dm_qd3503728.uf2 /media/${USER}/RPI-RP2
+ninja && cp Pico_DM_GTM0375HI1T02.uf2 /media/${USER}/RPI-RP2
 ```
 eez-studio 设计的UI已成功运行在设备上
 

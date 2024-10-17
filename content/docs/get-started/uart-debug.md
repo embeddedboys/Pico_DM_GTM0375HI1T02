@@ -14,7 +14,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-1. 将串口模块一端连接电脑，另一端连接到 Pico_DM_QD3503728 主板背部的引脚标识TX、RX、GND上，如下图所示
+1. 将串口模块一端连接电脑，另一端连接到 Pico_DM_GTM0375HI1T02 主板背部的引脚标识TX、RX、GND上，如下图所示
 
 
 2. 下载 Tabby 软件，可从如下链接下载

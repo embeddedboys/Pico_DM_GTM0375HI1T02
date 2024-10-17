@@ -22,34 +22,22 @@ seo:
 
  😋 我们正在开发中，包括但不限于如下工程：
 
-- [x] [裸机](/docs/env-setup/选择工程/#裸机)
-- [ ] [USB 显示屏](/docs/env-setup/选择工程/#usb-display)
+- [x] [FreeRTOS](/docs/env-setup/选择工程/#freertos)
 - [x] [8080屏模板工程](/docs/env-setup/选择工程/#8080屏模板工程)
 
-### 裸机
+### FreeRTOS
 
-该版本完全基于官方 Pico C-SDK 开发，仅添加了LVGL的支持，所以如果您想要在本项目基础上进行原生二次开发，可以选择该裸机工程。
+与裸机版本不同的是，我们又在其上面添加了FreeRTOS的支持，同时该工程支持SMP，可同时使用RP2040的两个核心处理任务，如果您惯用FreeRTOS开发，可以选择本工程。
 
 国内用户
 ```shell
-git clone https://gitee.com/embeddedboys/pico_dm_qd3503728_noos
+git clone https://gitee.com/embeddedboys/pico_dm_qd3503728_freertos.git
 ```
 
 ```shell
-git clone https://github.com/embeddedboys/pico_dm_qd3503728_noos
+git clone https://github.com/embeddedboys/pico_dm_qd3503728_freertos.git
 ```
 
-### USB Display
-
-#### 工程开发中。。。
-
-我们将在现有工程基础上（裸机或者FreeRTOS工程），添加 USB 显示屏 的支持，这将达到如下目标：
-
-1. 在 Linux 机器上，通过USB线连接到本设备，将创建一个新的fb设备
-
-2. 在 Windows 机器上，通过USB线连接到本设备，将识别到一个新的显示器
-
-上述两种方式都为当前的Host机器提供了主/拓展显示器支持。
 
 ### 8080屏模板工程
 
@@ -87,41 +75,14 @@ git clone https://github.com/embeddedboys/pico_dm_8080_template
 
 -----------------------------
 
-### 如果上述版本都无法下载，尝试访问如下链接直接下载压缩包
-链接：[https://pan.baidu.com/s/1m4WmPoHAZYiK3XwwXGrNDw?pwd=34mn](https://pan.baidu.com/s/1m4WmPoHAZYiK3XwwXGrNDw?pwd=34mn)
-
-提取码：34mn
-
-
-{{< callout context="note" title="说明" icon="info-circle" >}} 
-该方式的源码版本可能比较落后，最新版本以github仓库为准。
-我们也会及时更新镜像链接版本。
-{{< /callout >}}
-
 ## 基于社区开源项目
 
  😋 我们正在开发中，包括但不限于如下工程：
 
-- [x] [FreeRTOS](/docs/env-setup/选择工程/#freertos)
-- [x] [Micropython](/docs/env-setup/选择工程/#micropython)
-- [x] [Arduino](/docs/env-setup/选择工程/#arduino)
-- [x] [embedded_graphics (Rust)](/docs/env-setup/选择工程/#embedded_graphics-rust)
-- [x] [Slint (Rust)](/docs/env-setup/选择工程/#slint-rust)
-- [ ] [Nuttx](/docs/env-setup/选择工程/#nuttx)
-- [ ] [zephyr](/docs/env-setup/选择工程/#zephyr)
-
-### FreeRTOS
-
-与裸机版本不同的是，我们又在其上面添加了FreeRTOS的支持，同时该工程支持SMP，可同时使用RP2040的两个核心处理任务，如果您惯用FreeRTOS开发，可以选择本工程。
-
-国内用户
-```shell
-git clone https://gitee.com/embeddedboys/pico_dm_qd3503728_freertos.git
-```
-
-```shell
-git clone https://github.com/embeddedboys/pico_dm_qd3503728_freertos.git
-```
+- [ ] [Micropython](/docs/env-setup/选择工程/#micropython)
+- [ ] [Arduino](/docs/env-setup/选择工程/#arduino)
+- [ ] [embedded_graphics (Rust)](/docs/env-setup/选择工程/#embedded_graphics-rust)
+- [ ] [Slint (Rust)](/docs/env-setup/选择工程/#slint-rust)
 
 ### Micropython
 
@@ -547,15 +508,3 @@ git clone https://github.com/embeddedboys/pico_dm_qd3503728_slint_mcu
 ```
 
 点击查看[编译及配置](/docs/env-setup/编译及配置/#slint)
-
-### Nuttx
-
-[https://nuttx.apache.org/docs/latest/platforms/arm/rp2040/index.html](https://nuttx.apache.org/docs/latest/platforms/arm/rp2040/index.html)
-
-已提上日程，调研中。。。
-
-### Zephyr
-
-[https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_pico/doc/index.html](https://docs.zephyrproject.org/latest/boards/raspberrypi/rpi_pico/doc/index.html)
-
-已提上日程，调研中。。。
