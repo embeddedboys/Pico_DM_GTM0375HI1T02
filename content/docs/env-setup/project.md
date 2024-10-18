@@ -22,8 +22,25 @@ seo:
 
  😋 我们正在开发中，包括但不限于如下工程：
 
+- [x] [裸机工程](/docs/env-setup/选择工程/#裸机工程)
 - [x] [FreeRTOS](/docs/env-setup/选择工程/#freertos)
 - [x] [8080屏模板工程](/docs/env-setup/选择工程/#8080屏模板工程)
+
+### 裸机工程
+
+该版本完全基于官方 Pico C-SDK 开发，仅添加了LVGL的支持，所以如果您想要在本项目基础上进行原生二次开发，可以选择该裸机工程。
+
+国内用户
+
+```bash
+git clone https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_noos.git
+```
+
+备用地址
+
+```bash
+git clone https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_noos.git
+```
 
 ### FreeRTOS
 
@@ -31,11 +48,11 @@ seo:
 
 国内用户
 ```shell
-git clone https://gitee.com/embeddedboys/pico_dm_qd3503728_freertos.git
+git clone https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos.git
 ```
 
 ```shell
-git clone https://github.com/embeddedboys/pico_dm_qd3503728_freertos.git
+git clone https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos.git
 ```
 
 
