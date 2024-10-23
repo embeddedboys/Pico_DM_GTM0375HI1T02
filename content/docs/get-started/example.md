@@ -18,7 +18,7 @@ seo:
   noindex: false # false (default) or true
 ---
 
-{{< figure src="images/dm-qd3503728-1.jpg" alt="" >}}
+{{< figure src="images/dm-gtm0375hi1t02-0.jpg" alt="" >}}
 
 **Pico_DM_GTM0375HI1T02** 是基于树莓派 Pico 设计的一款低成本显示拓展板，用来学习、评估、开发LVGL或其他GUI应用。 
 
