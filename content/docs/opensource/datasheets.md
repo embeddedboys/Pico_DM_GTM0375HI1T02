@@ -23,4 +23,4 @@ seo:
 
 - [ILI9488.pdf](http://embeddedboys.com/uploads/datasheets/ILI9488.pdf)
 
-- [FT6236.pdf](http://embeddedboys.com/uploads/datasheets/FT6236.pdf)
+- [NS2009.pdf](http://embeddedboys.com/uploads/datasheets/NS2009.pdf)

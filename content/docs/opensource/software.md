@@ -21,15 +21,15 @@ seo:
 ## 本项目相关的
 
 ### LVGL 裸机工程
-[https://gitee.com/embeddedboys/pico_dm_qd3503728_noos](https://gitee.com/embeddedboys/pico_dm_qd3503728_noos)
+[https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_noos](https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_noos)
 
-[https://github.com/embeddedboys/pico_dm_qd3503728_noos](https://github.com/embeddedboys/pico_dm_qd3503728_noos)
+[https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_noos](https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_noos)
 
 ### LVGL FreeRTOS 工程
 
-[https://gitee.com/embeddedboys/pico_dm_qd3503728_freertos](https://gitee.com/embeddedboys/pico_dm_qd3503728_freertos)
+[https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos](https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos)
 
-[https://github.com/embeddedboys/pico_dm_qd3503728_freertos](https://github.com/embeddedboys/pico_dm_qd3503728_freertos)
+[https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos](https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos)
 
 ### LVGL 8080显示屏通用工程
 
