@@ -42,6 +42,7 @@ cd Pico_DM_GTM0375HI1T02
 npm install
 rm -rf public && npm run build
 ```
+构建完成后，在`public`目录下生成静态文件，可以直接部署到服务器。
 
 或者在本地启动服务器
 ```bash

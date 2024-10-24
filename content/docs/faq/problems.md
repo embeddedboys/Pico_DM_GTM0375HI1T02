@@ -37,7 +37,7 @@ Call Stack (most recent call first):
 -- Configuring incomplete, errors occurred!
 ```
 
-这通常是由于没有正确设置`PICO_SDK_PATH`环境变量导致的，可参考[这里](/docs/env-setup/安装依赖/#pico-sdk-env)解决。
+这通常是由于没有正确设置`PICO_SDK_PATH`环境变量导致的，可参考[这里](/docs/env-setup/安装依赖/#2-下载-pico-sdk-源码)解决。
 
 ### 我在使用git拉取github工程时，出现如下错误
 

@@ -46,16 +46,16 @@ With detailed documentation, a polished MicroPython port, and a UF2 bootloader i
 ## 产品参数
 
 | | Pico_DM_GTM0375HI1T02 |
-| --- | --- |
-| 芯片 | 树莓派 RP2040 |
-| 处理器 | 双核 ARM Cortex-M0 + @ 133MHz |
-| 内存 | 264 KB SRAM |
+| --- | --- | --- |
+| 芯片 | 树莓派 RP2040 | 树莓派 RP2350 |
+| 处理器 | 双核 ARM Cortex-M0 + @ 133MHz | 双核 Arm Cortex-M33 或 双核 Hazard3 RISC-V processors @ 150MHz |
+| 内存 | 264 KB SRAM | 520 KB on-chip SRAM |
 | 闪存 | 最大 16MB |
 | 显示屏 | 3.5寸 TFT 480x320 8位8080 ILI9488 |
-| 触摸屏 | 3.5寸 RTP NS009 |
+| 触摸屏 | 3.5寸 RTP NS2009 |
 
-{{< card-grid >}}
+<!-- {{< card-grid >}}
   {{< link-card title="官方购买链接" href="https://item.taobao.com/item.htm?ft=t&id=776451474190&spm=a21dvs.23580594.0.0.52de3d0dccvs2X&skuId=5311045681719" >}}
-{{< /card-grid >}}
+{{< /card-grid >}} -->
 
 {{< callout context="note" title="说明" icon="info-circle" >}} 默认配置不包括核心板，需自行准备，或选配 {{< /callout >}}
