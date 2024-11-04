@@ -97,9 +97,9 @@ git clone https://github.com/embeddedboys/pico_dm_8080_template
  😋 我们正在开发中，包括但不限于如下工程：
 
 - [ ] [Micropython](/docs/env-setup/选择工程/#micropython)
-- [ ] [Arduino](/docs/env-setup/选择工程/#arduino)
-- [ ] [embedded_graphics (Rust)](/docs/env-setup/选择工程/#embedded_graphics-rust)
-- [ ] [Slint (Rust)](/docs/env-setup/选择工程/#slint-rust)
+- [x] [Arduino](/docs/env-setup/选择工程/#arduino)
+- [x] [embedded_graphics (Rust)](/docs/env-setup/选择工程/#embedded_graphics-rust)
+- [x] [Slint (Rust)](/docs/env-setup/选择工程/#slint-rust)
 
 ### Micropython
 
@@ -397,14 +397,19 @@ V9.0: [https://sim.lvgl.io/v9.0/micropython/ports/webassembly/index.html](https:
 
 底层驱动支持情况：
 - [x] Display via PIO + DMA
-- [x] Touch
+- [ ] Touch
 
 #### 在你开始之前
 
 0. 通过git或者下载zip来获取本工程
 
     ```bash
-    git clone https://github.com/embeddedboys/pico_dm_qd3503728_arduino
+    git clone https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_arduino
+    ```
+
+    镜像链接：
+    ```bash
+    git clone https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_arduino
     ```
 
 1. 在 Arduino IDE 中安装 pico 开发板
@@ -439,14 +444,14 @@ V9.0: [https://sim.lvgl.io/v9.0/micropython/ports/webassembly/index.html](https:
 3. 将 `TFT_eSPI/User_Setup.h` 替换成本工程中提供的
 
     ```bash
-    cd pico_dm_qd3503728_arduino
+    cd pico_dm_gtm0375hi1t02_arduino
     cp User_Setup.h ~/Arduino/libraries/TFT_eSPI/
     ```
 
 4. 将 `lv_conf.h` 拷贝至 `Arduino/libraries` 目录下
 
     ```bash
-    cd pico_dm_qd3503728_arduino
+    cd pico_dm_gtm0375hi1t02_arduino
     cp lv_conf.h ~/Arduino/libraries/
     ```
 
@@ -487,14 +492,19 @@ libraries\
 
 底层驱动支持情况：
 - [x] Display via GPIO
-- [ ] Display via PIO
+- [x] Display via PIO
 - [ ] Display via PIO + DMA
 - [ ] Touch
 
-仓库链接：[https://github.com/embeddedboys/pico_dm_qd3503728_embedded_graphics](https://github.com/embeddedboys/pico_dm_qd3503728_embedded_graphics)
+仓库链接：[https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_embedded_graphics](https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_embedded_graphics)
 
 ```bash
-git clone https://github.com/embeddedboys/pico_dm_qd3503728_embedded_graphics
+git clone https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_embedded_graphics
+```
+
+镜像链接：
+```bash
+git clone https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_embedded_graphics
 ```
 
 编译烧录参考[编译及配置](../编译及配置/#embedded_graphics)
@@ -510,18 +520,23 @@ git clone https://github.com/embeddedboys/pico_dm_qd3503728_embedded_graphics
 
 我们添加了一个初步支持的slint移植，可查看如下仓库
 
-[https://github.com/embeddedboys/pico_dm_qd3503728_slint_mcu](https://github.com/embeddedboys/pico_dm_qd3503728_slint_mcu)
+[https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_slint_mcu](https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_slint_mcu)
 
-这部分的文档还在整理中，可先查看如上仓库的 [README](https://github.com/embeddedboys/pico_dm_qd3503728_slint_mcu/blob/main/README.md)
+这部分的文档还在整理中，可先查看如上仓库的 [README](https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_slint_mcu/blob/main/README.md)
 
 底层驱动支持情况：
 - [x] Display via GPIO
-- [ ] Display via PIO
+- [x] Display via PIO
 - [ ] Display via PIO + DMA
 - [ ] Touch
 
 ```bash
-git clone https://github.com/embeddedboys/pico_dm_qd3503728_slint_mcu
+git clone https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_slint_mcu
+```
+
+镜像链接：
+```bash
+git clone https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_slint_mcu
 ```
 
 点击查看[编译及配置](/docs/env-setup/编译及配置/#slint)
