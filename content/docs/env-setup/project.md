@@ -24,6 +24,7 @@ seo:
 
 - [x] [裸机工程](/docs/env-setup/选择工程/#裸机工程)
 - [x] [FreeRTOS](/docs/env-setup/选择工程/#freertos)
+- [x] [USB Display](/docs/env-setup/选择工程/#usb-display)
 - [x] [8080屏模板工程](/docs/env-setup/选择工程/#8080屏模板工程)
 
 ### 裸机工程
@@ -55,6 +56,11 @@ git clone https://gitee.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos.git
 git clone https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_freertos.git
 ```
 
+### USB Display
+
+```shell
+git clone https://github.com/embeddedboys/pico_dm_gtm0375hi1t02_udd.git
+```
 
 ### 8080屏模板工程
 
