@@ -29,9 +29,3 @@ seo:
 - 串口转 USB 模块
 
 ## 测试固件下载
-
-目前还没有提供直链，先用这个吧
-
-[https://pan.baidu.com/s/1m4WmPoHAZYiK3XwwXGrNDw?pwd=34mn#list/path=%2FPico_DM_QD3503728%2Ffirmware](https://pan.baidu.com/s/1m4WmPoHAZYiK3XwwXGrNDw?pwd=34mn#list/path=%2FPico_DM_QD3503728%2Ffirmware)
-
-firmware文件夹下
